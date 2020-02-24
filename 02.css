@@ -1,0 +1,42 @@
+html{
+	font-family: Arial;
+}
+
+p{
+	line-height: 30px;
+}
+
+a{
+	color: red;
+	font-style:italic; 
+}
+
+h1{
+	color: black;
+}
+
+h3{
+	color: green;
+}
+
+#segundo-titulo{
+	color:#00f;
+}
+
+
+#titulo3{
+	color:red;
+}
+
+table{
+	border: 3px solid black;
+	width: 100%;
+}
+th{
+	border: 2px solid grey;
+	width:25%;
+}
+
+td{
+	border-bottom: 1px solid black;
+}
