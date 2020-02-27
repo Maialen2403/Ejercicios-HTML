@@ -1,0 +1,89 @@
+<!DOCTYPE html >
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Ejercicio 05: Floats</title>
+<style type="text/css">
+
+
+p.lside {
+    /* Añade los estilos arriba*/
+    float: left;
+    width: 400px;
+   margin-right: 14px;
+
+
+}
+p.rside {
+    /* Añade los estilos */
+    float: right;
+    border: 1px solid black;
+    width:  200px;
+    margin-right: 50px;
+
+}
+
+
+p.izquierda {
+    /* Añade los estilos */
+    float: left;
+    padding-right:14px;   
+    border: 1px solid black;
+    width: 200px; 
+    
+
+}
+p.derecha {
+    /* Añade los estilos */
+    float: left;
+    width: 400px;
+    margin-left: 14px;
+
+}
+
+div:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div {
+	width: 50%;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1>CSS: float</h1>
+
+<h2>Ejemplo 1</h2>
+<div>
+<p class="izquierda">This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.</p>
+
+<p class="derecha"> This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+</p>
+	
+</div>
+
+<h2>Ejemplo 2</h2>
+<div>
+<p class="rside">This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.</p>
+
+<p class="lside"> This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+</p>
+	
+</div>
+</body>
+</html>
